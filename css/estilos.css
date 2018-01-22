@@ -1,6 +1,6 @@
 .fondo-rosa {
 background: linear-gradient(to bottom right, #530060, #B1077B) ;
-height:50vh;
+height:80vh;
 }
 
 .logo-white {
@@ -29,4 +29,13 @@ height:50vh;
 
 .color-icon {
   color: #B1077B;
+}
+
+.banderitas {
+  height: 30px;
+  background-color: pink;
+}
+
+#filter {
+  color: black;
 }
