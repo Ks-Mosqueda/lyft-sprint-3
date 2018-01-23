@@ -39,3 +39,11 @@ height:80vh;
 #filter {
   color: black;
 }
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}

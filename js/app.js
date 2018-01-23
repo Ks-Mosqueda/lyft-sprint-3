@@ -1,13 +1,28 @@
 
+/*Funcion para screen-splash*/
+$(document).ready(function () {
+  setTimeout(function () {
+    var mostrar= document.getElementById("fondoRosa");
+    var mostrarInicio = document.getElementById("inicio");
+    mostrar.classList.remove("show");
+    mostrar.classList.add("hide");
+    mostrarInicio.classList.remove("hide");
+    mostrarInicio.classList.add("show");
+  },3000);
+});
 
 
 
-/*$(document).ready(function () {
-  $('.dropdown-button').dropdown('open');
-  $('.dropdown-button').dropdown('close');*/
+/*
+fondoRosa.addEventListener("click", showMenu)
 
+function showMenu() {
+  console.log(mostrarInicio)
 
+  if (mostrarInicio.classList.contains("show")){
+    mostrarInicio.classList.remove("hide");
+    mostrarInicio.classList.add("show");
+   }
+ }*/
 
-   /*$(".button-collapse").sideNav();
-   $(".dropdown-button").dropdown();
- });*/
+/*Funcion para boton sing-up*/
