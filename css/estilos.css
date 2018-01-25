@@ -1,6 +1,6 @@
 .fondo-rosa {
 background: linear-gradient(to bottom right, #530060, #B1077B) ;
-height:80vh;
+height:100vh;
 }
 
 .logo-white {
@@ -15,12 +15,9 @@ height:80vh;
   margin-top: 45vh;
 }
 
-.coche {
+.car {
   height:80vh;
-}
 
-.centrar {
-  margin-left: 18vh;
 }
 
 .center {
@@ -32,11 +29,13 @@ height:80vh;
 }
 
 .banderitas {
+  width: 200px;
   height: 30px;
   background-color: pink;
 }
 
 #filter {
+  width: 200px;
   color: black;
 }
 
@@ -46,4 +45,14 @@ height:80vh;
 
 .hide {
   display: none;
+}
+
+.car1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.separation {
+  margin-right: 5vh;
 }
